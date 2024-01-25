@@ -1,0 +1,21 @@
+body {
+    background-color:rgb(238, 231, 169);
+}
+
+.nav_link {
+    padding: 10px;
+    color: black;
+    font-size: 1.3em;
+}
+
+img {
+    width: 300px;
+}
+
+#main_title {
+    font-size: 4em;
+}
+
+#sub_title {
+    color:rgb(99, 109, 185);
+}
