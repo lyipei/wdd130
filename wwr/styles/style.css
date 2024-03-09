@@ -212,6 +212,7 @@ footer p a:hover {
     text-align: left;
     padding: 20px;
     color:white;
+    font-family: "Nunito Sans", "Bradley Hand", sans-serif; 
 }
 .title_2 {
     grid-row: 3/4;
@@ -221,6 +222,7 @@ footer p a:hover {
     text-align: left;
     padding: 20px;
     color:white;
+    font-family: "Nunito Sans", "Bradley Hand", sans-serif; 
 }
 .title_3 {
     grid-row: 5/6;
@@ -230,6 +232,7 @@ footer p a:hover {
     text-align: left;
     padding: 20px;
     color:white;
+    font-family: "Nunito Sans", "Bradley Hand", sans-serif; 
 }
 #paragraph1{
     grid-row: 2/3;
@@ -239,6 +242,7 @@ footer p a:hover {
     margin:0px 20px 20px 20px;
     text-align: left;
     padding: 0px 30px 70px 30px;
+    font-family: "Nunito Sans", "Bradley Hand", sans-serif; 
 }
 #paragraph2 {
     grid-column: 2/4;
@@ -248,6 +252,7 @@ footer p a:hover {
     margin:0px 20px 20px 20px;
     text-align: left;
     padding: 0px 30px 70px 30px;
+    font-family: "Nunito Sans", "Bradley Hand", sans-serif; 
 }
 #paragraph3 {
     grid-column: 1/3;
@@ -257,6 +262,7 @@ footer p a:hover {
     margin:0px 20px 20px 20px;
     text-align: left;
     padding: 0px 30px 70px 30px;
+    font-family: "Nunito Sans", "Bradley Hand", sans-serif; 
 }
 #background1 {
     background-color:rgb(141, 168, 190);
