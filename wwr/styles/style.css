@@ -194,74 +194,103 @@ footer p a:hover {
 }
 .river-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    row-gap: 80px;
+    grid-template-columns: 2fr 1fr 2fr ;
     margin: 100px  0;
     justify-items: center;
     align-items: center;
+    row-gap: 10px;
 }
-.middle image .gray canyon image .Grand Canyon image {
+.middle image .gray_canyon image .Grand_Canyon image {
     width: 100%;
     z-index: 1;
 }
 .title_1 {
     grid-row: 1/2;
     grid-column: 1/3;
-    font-size: 90%;
-    margin: 10px;
+    font-size: 150%;
+    margin: 20px 15px 10px 15px;
     text-align: left;
     padding: 20px;
     color:white;
 }
 .title_2 {
-    grid-row: 2/3;
+    grid-row: 3/4;
     grid-column: 2/4;
-    font-size: 90%;
-    margin: 30px;
+    font-size: 150%;
+    margin: 50px 15px 10px 15px;
     text-align: left;
     padding: 20px;
-    color: white;
+    color:white;
 }
 .title_3 {
-    grid-row: 3/4;
+    grid-row: 5/6;
     grid-column: 1/3;
-    font-size: 90%;
-    margin: 30px;
+    font-size: 150%;
+    margin: 50px 15px 10px 15px;
     text-align: left;
     padding: 20px;
-    color: white;
+    color:white;
+}
+#paragraph1{
+    grid-row: 2/3;
+    grid-column: 1/3;
+    color:white;
+    font-size: 90%;
+    margin:0px 20px 20px 20px;
+    text-align: left;
+    padding: 0px 30px 70px 30px;
+}
+#paragraph2 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    color:white;
+    font-size: 90%;
+    margin:0px 20px 20px 20px;
+    text-align: left;
+    padding: 0px 30px 70px 30px;
+}
+#paragraph3 {
+    grid-column: 1/3;
+    grid-row: 6/7;
+    color:white;
+    font-size: 90%;
+    margin:0px 20px 20px 20px;
+    text-align: left;
+    padding: 0px 30px 70px 30px;
 }
 #background1 {
     background-color:rgb(141, 168, 190);
     grid-column: 1/4;
-    grid-row: 1/2;
+    grid-row: 1/3;
     height: 550px;
     width:100%;
+    margin-bottom: 50px;
 }
 #background2 {
     background-color:rgb(141, 168, 190);
     grid-column: 1/4;
-    grid-row: 2/3;
+    grid-row: 3/5;
     height: 550px;
     width:100%;
+    margin-bottom: 50px;
 }
 #background3 {
     background-color:rgb(141, 168, 190);
     grid-column: 1/4;
-    grid-row: 3/4;
+    grid-row: 5/7;
     height: 550px;
     width:100%;
 }
 #image1 {
-    grid-row: 1/2;
+    grid-row: 1/3;
     grid-column: 3/4;
 }
 #image2 {
-    grid-row: 2/3;
+    grid-row: 3/5;
     grid-column: 1/2;
 }
 #image3 {
-    grid-row: 3/4;
+    grid-row: 5/7;
     grid-column: 3/4;
 }
 
