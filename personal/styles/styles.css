@@ -303,6 +303,8 @@ footer p a:hover {
 .miracles8 {
     grid-column: 3/7;
     grid-row: 5/7;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 .spirit {
     grid-column: 1/3;
