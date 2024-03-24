@@ -324,3 +324,100 @@ p {
     font-size: 100%;
     font-family: "Frank Ruhi Libre", "Bradley Hand", sans-serif;
 }
+
+
+/* Interesting story */
+#into {
+    margin: 30px;
+    font-size: 110%;
+    font-family: "Oleo Script", "Bradley Hand", sans-serif;
+    color: #C17C74;
+    letter-spacing: 1px;
+}
+.interesting-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    margin:30px;
+    justify-content: center;
+    justify-items: stretch;
+}
+.interest1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+#p1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.interest2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#p2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.interest3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#p3 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.interest4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.interest5 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.interest6 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.interest7 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+#p7 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.interest8 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+#p8 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+.interest9 {
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+#p9 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+#p1, #p3, #p8 {
+    color: #DDC9B4;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2A3D45;
+    margin: 5px;
+    padding: 30px;
+    text-align: left;
+}
+#p2, #p7, #p9{
+    color: #2A3D45;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #DDC9B4;
+    margin: 5px;
+    padding: 30px;
+    text-align: left;
+}
