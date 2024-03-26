@@ -21,15 +21,123 @@
             <p id="into">My mission was filled with a myriad of emotions - from the pains of challenges overcome, to the joys of successes achieved, and the fascination of unexpected encounters. Allow me to share some of the most intriguing and memorable tales from my journey. </p>
             <main class="interesting-grid">
                 
-                <div class="interest1">
-                    <img class="chair-img" src="image/interesting/chairpicture.JPG" alt="chair picture">
-                </div> 
-                <p id="p1">This is our tradition that we take a particular photo at the end of each transfer with district. The number of chairs represents the number of transfers. This picture was taken during my last transfer; therefore, I sat on the 12 chairs. It was super high!</p>
+                <p id="p1">Our tradition dictates that we take a specific photo at the conclusion of each transfer with the district member. The number of chairs in the photo symbolizes the total number of transfers we've experienced. This tradition has documented all of my transfers!</p>
                 
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                      <div class="numbertext">1/10</div>
+                      <img src="image/interesting/chairpicture1.jpg" style="width:100%">
+                      <div class="text">Transfer 1</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2/10</div>
+                      <img src="image/interesting/chairpicture2.jpg" style="width:100%">
+                      <div class="text">Transfer 3</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">3/10</div>
+                      <img src="image/interesting/chairpicture4.jpg" style="width:100%">
+                      <div class="text">Transfer 4</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4/10</div>
+                        <img src="image/interesting/chairpicture5.jpg" style="width:100%">
+                        <div class="text">Transfer 5</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                        <div class="numbertext">5/10</div>
+                        <img src="image/interesting/chairpicture6.jpg" style="width:100%">
+                        <div class="text">Transfer 6</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">6/10</div>
+                        <img src="image/interesting/chairpicture7.jpg" style="width:100%">
+                        <div class="text">Transfer 7</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">7/10</div>
+                        <img src="image/interesting/chairpicture9.jpg" style="width:100%">
+                        <div class="text">Transfer 9</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">8/10</div>
+                        <img src="image/interesting/chairpicture10.jpg" style="width:100%">
+                        <div class="text">Transfer 10</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">9/10</div>
+                        <img src="image/interesting/chairpictur11.jpg" style="width:100%">
+                        <div class="text">Transfer 11</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">10/10</div>
+                        <img src="image/interesting/chairpicture12.JPG" style="width:100%">
+                        <div class="text">Transfer 12</div>
+                    </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                  
+                <!-- The dots/circles -->
+                <div class="dots" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
+                </div>
+                <script>
+                    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+                </script>
                 <div class="interest2">
                     <img class="teach-img" src="image/interesting/teaching.JPG" alt="teaching a friend">
                 </div> 
-                <p id="p2">On the left side of the picture is my friend, Kiven, who is a high school student, but there's something amiss with his IQ, perhaps closer to that of an elementary school student. We attempted to share the gospel in a simple manner;my companion drew a picture while I explained salvation.</p>
+                <p id="p2">On the left side of the picture is our friend, Kiven, who is a high school student, but there's something amiss with his IQ, perhaps closer to that of an elementary school student. We attempted to share the gospel in a simple manner;my companion drew a picture while I explained salvation.</p>
                 
                 <div class="interest3">
                     <img class="game-img" src="image/interesting/trainertraining.JPG" alt="trainer training">
@@ -52,7 +160,7 @@
                 <div class="interest8">
                     <img class="speak-img" src="image/interesting/traditionspeak.JPG" alt="Tradition speak">
                 </div> 
-                <p id="p8"> During Christmas,  we brought along some activities and spent time with elder center. One of the most memorable moments was when a fellow member asked us to share the story of Jesus' birth in Taiwanese. Despite my Taiwanese not being as fluent as a native speaker's, I did my best to convey the story. However, at the end of my speech, it became evident that the elders didn't fully understand what I was saying (haha). Thankfully, another member stepped forward and helped me retell the story, ensuring that everyone could grasp its meaning.</p>
+                <p id="p8"> We brought along some activities and spent time with the elders at Christmas. A member asked us to share the story of Jesus' birth in Taiwanese. Despite my Taiwanese not being as fluent as a native speaker's, I did my best to convey the story. However, at the end of my speech, it became evident that the elders didn't fully understand what I was saying (haha). Thankfully, another member helped me retell the story, ensuring everyone could grasp its meaning.</p>
                     
                 <div class="interest9">
                     <img class="washing-img" src="image/interesting/truck.JPG" alt="sit on the truck after service">
