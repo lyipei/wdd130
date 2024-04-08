@@ -403,7 +403,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     background-color: #2A3D45;
     margin: 5px;
-    margin-left: 35px;
+    margin-left: 8%;
     padding: 30px;
     text-align: left;
     width: 400px;
@@ -430,6 +430,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     background-color: #DDC9B4;
     margin: 5px;
+    margin-left: 10%;
     padding: 30px;
     text-align: left;
     width: 400px;
@@ -439,7 +440,6 @@ p {
     align-items: center;
     justify-content: center;
     border: #2A3D45 dashed 5px;
-    margin-left: 35px;
 }
 .interest3 {
     grid-column: 2/3;
@@ -457,6 +457,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     background-color: #2A3D45;
     margin: 5px;
+    margin-left: 10%;
     padding: 30px;
     text-align: left;
     width: 400px;
@@ -466,7 +467,6 @@ p {
     align-items: center;
     justify-content: center;
     border: #DDC9B4 dashed 5px;
-    margin-left: 35px;
 }
 .interest4 {
     grid-column: 1/2;
@@ -520,6 +520,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     background-color: #2A3D45;
     margin: 5px;
+    margin-left: 10%;
     padding: 30px;
     text-align: left;
     width: 400px;
@@ -529,7 +530,7 @@ p {
     align-items: center;
     justify-content: center;
     border: #DDC9B4 dashed 5px;
-    margin-left: 35px;
+
 }
 .interest9 {
     grid-column: 3/4;
@@ -549,6 +550,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     background-color: #DDC9B4;
     margin: 5px;
+    margin-left: 10%;
     padding: 30px;
     text-align: left;
     width: 400px;
@@ -558,7 +560,7 @@ p {
     align-items: center;
     justify-content: center;
     border: #2A3D45 dashed 5px;
-    margin-left: 35px;
+
 }
 
 * {box-sizing:border-box}
